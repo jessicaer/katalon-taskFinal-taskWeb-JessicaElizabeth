@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_Security-Question</name>
+   <tag></tag>
+   <elementGuidId>8fdd4b63-2dcc-4a2e-881a-6a1d559be165</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-select-value-11']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-select-placeholder.mat-select-min-line.ng-tns-c30-25.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Selection list for the security question&quot;i >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9499fa2b-6695-4aa0-838c-8055504894a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-placeholder mat-select-min-line ng-tns-c30-25 ng-star-inserted</value>
+      <webElementGuid>59c9a7b3-6758-4d9b-b338-e23769864cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-value-11&quot;)/span[@class=&quot;mat-select-placeholder mat-select-min-line ng-tns-c30-25 ng-star-inserted&quot;]</value>
+      <webElementGuid>108d7a27-6881-4707-abdd-6da7a7f8cad7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-select-value-11']/span</value>
+      <webElementGuid>83e26b10-682f-445d-8c69-0f2e996b01f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat Password'])[1]/following::span[9]</value>
+      <webElementGuid>37e91ee9-811d-4dc9-9a01-91be722cb66b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Question'])[1]/preceding::span[1]</value>
+      <webElementGuid>0b45dfc5-ea01-46a5-872d-dc828aeb1422</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This cannot be changed later!'])[1]/preceding::span[3]</value>
+      <webElementGuid>335f7c57-e306-4060-aa53-3a57cdb20197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div/div/span</value>
+      <webElementGuid>d095d1bd-489c-465d-9c46-9df4f5a26b10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
