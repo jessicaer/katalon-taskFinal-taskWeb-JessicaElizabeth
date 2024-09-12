@@ -53,9 +53,9 @@ WebUI.setText(findTestObject('Object Repository/page_Registrasi/input_Security-A
 
 WebUI.click(findTestObject('Object Repository/page_Registrasi/button_Register'))
 
-WebUI.waitForElementVisible(findTestObject('page_Registrasi/txterror_email-unique'), 0)
+WebUI.waitForElementVisible(findTestObject('page_Registrasi/txterror_email-unique'), 15)
 
 WebUI.verifyElementVisible(findTestObject('page_Registrasi/txterror_email-unique'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

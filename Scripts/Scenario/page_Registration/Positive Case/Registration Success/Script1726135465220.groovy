@@ -57,5 +57,5 @@ WebUI.waitForElementVisible(findTestObject('page_Login/lbl_Login'), 0)
 
 WebUI.verifyElementVisible(findTestObject('page_Login/lbl_Login'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
