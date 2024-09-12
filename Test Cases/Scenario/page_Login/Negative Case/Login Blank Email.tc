@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Blank Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ef2dd58-311a-4abb-9828-35c26acebd96</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0bdb680f-8ffe-4cfd-ba22-3dd5b6f9a8f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'YINYHPdEauSZ3521MwnC1g=='</defaultValue>
+      <description></description>
+      <id>0bdb680f-8ffe-4cfd-ba22-3dd5b6f9a8f2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

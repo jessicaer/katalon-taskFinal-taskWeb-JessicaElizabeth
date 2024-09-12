@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Registrasi/lbl_Registration-Success_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Login/txterror_Email-Blank",
+      "brokenLocator": "//mat-error[@id\u003d\u0027mat-error-3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027login-form\u0027]/mat-form-field/div/div[2]/div/mat-error",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Login/txterror_Email-Blank_idRelative.png"
     }
   ]
 }
