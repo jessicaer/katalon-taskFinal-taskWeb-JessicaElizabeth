@@ -25,3 +25,5 @@ WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.click(findTestObject('Object Repository/page_Home/button_visibility'))
 
+WebUI.click(findTestObject('page_Home/a_cookie-browser'))
+

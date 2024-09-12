@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Registrasi/list_Security-Question",
+      "brokenLocator": "//div[@id\u003d\u0027mat-select-value-11\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat Password\u0027])[1]/following::span[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Registrasi/list_Security-Question_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Registrasi/lbl_Registration-Success",
+      "brokenLocator": "//div[@id\u003d\u0027cdk-overlay-7\u0027]/snack-bar-container/div/div/simple-snack-bar/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Open side menu\u0027])[1]/preceding::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Registrasi/lbl_Registration-Success_neighbor.png"
+    }
+  ]
 }

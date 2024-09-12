@@ -3,22 +3,22 @@
    <description></description>
    <name>list_Security-Question</name>
    <tag></tag>
-   <elementGuidId>8fdd4b63-2dcc-4a2e-881a-6a1d559be165</elementGuidId>
+   <elementGuidId>7d764466-f152-4214-8473-8365931542cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-11']/span</value>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c21-16</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-select-placeholder.mat-select-min-line.ng-tns-c30-25.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//div[@id='registration-form']/div/mat-form-field/div/div/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Selection list for the security question&quot;i >> span</value>
+         <value>#registration-form div >> internal:has-text=&quot;Security Question *&quot;i >> nth=3</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,63 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>9499fa2b-6695-4aa0-838c-8055504894a4</webElementGuid>
+      <value>div</value>
+      <webElementGuid>cea4493d-3581-4063-8562-5fce664aa0de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-select-placeholder mat-select-min-line ng-tns-c30-25 ng-star-inserted</value>
-      <webElementGuid>59c9a7b3-6758-4d9b-b338-e23769864cae</webElementGuid>
+      <value>mat-form-field-infix ng-tns-c21-16</value>
+      <webElementGuid>6f49af2e-021b-4c70-9a50-999094ef544a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Security Question  *</value>
+      <webElementGuid>8dbefc38-1eb9-47fa-8656-124351fea0d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-value-11&quot;)/span[@class=&quot;mat-select-placeholder mat-select-min-line ng-tns-c30-25 ng-star-inserted&quot;]</value>
-      <webElementGuid>108d7a27-6881-4707-abdd-6da7a7f8cad7</webElementGuid>
+      <value>id(&quot;registration-form&quot;)/div[@class=&quot;security-container&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c21-16 mat-accent mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label ng-pristine ng-invalid ng-star-inserted mat-form-field-invalid ng-touched mat-form-field-hide-placeholder&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c21-16&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c21-16&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c21-16&quot;]</value>
+      <webElementGuid>bd4e2e27-adbb-4ab5-8137-e0e3d7f583a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mat-select-value-11']/span</value>
-      <webElementGuid>83e26b10-682f-445d-8c69-0f2e996b01f6</webElementGuid>
+      <value>//div[@id='registration-form']/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>259c5658-7f73-4c1e-bfc5-1ff0321ab4c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat Password'])[1]/following::span[9]</value>
-      <webElementGuid>37e91ee9-811d-4dc9-9a01-91be722cb66b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat Password'])[1]/following::div[19]</value>
+      <webElementGuid>4bf39e28-aea4-4ceb-93b4-c505f14f6a7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Question'])[1]/preceding::span[1]</value>
-      <webElementGuid>0b45dfc5-ea01-46a5-872d-dc828aeb1422</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This cannot be changed later!'])[1]/preceding::span[3]</value>
-      <webElementGuid>335f7c57-e306-4060-aa53-3a57cdb20197</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select a security question.'])[1]/preceding::div[5]</value>
+      <webElementGuid>5c1d18e7-6c86-4927-aed8-5c36048c37de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-select/div/div/span</value>
-      <webElementGuid>d095d1bd-489c-465d-9c46-9df4f5a26b10</webElementGuid>
+      <value>//div[2]/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>a0a38812-bb02-4b1d-bb5e-7fa2588b5f82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Security Question  *' or . = ' Security Question  *')]</value>
+      <webElementGuid>e6c5792d-c5a5-42c5-82b8-7d325153cece</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

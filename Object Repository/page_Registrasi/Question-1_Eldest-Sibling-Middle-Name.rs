@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Security-Question</name>
+   <name>Question-1_Eldest-Sibling-Middle-Name</name>
    <tag></tag>
-   <elementGuidId>ebf963a8-6a78-4f7c-a9b3-fae037f1f9ae</elementGuidId>
+   <elementGuidId>3dcd97e5-bcb7-4939-ba98-c1b4a399b513</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-5']/span</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-5 > span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-4']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Mother's maiden name?&quot;i</value>
+         <value>internal:text=&quot;Your eldest siblings middle name?&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>96bae1a6-0975-465a-8187-5720d9366c4d</webElementGuid>
+      <webElementGuid>54c0fb63-953e-4647-b9bd-b15a27b9458a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,70 +37,70 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>21fc2da4-2f1e-4b25-9012-9e721b056614</webElementGuid>
+      <webElementGuid>cd052193-771a-4270-a9fe-729d26f68e2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Mother's maiden name? </value>
-      <webElementGuid>7fa3a5f0-2446-42c7-a4db-93ecfad5d517</webElementGuid>
+      <value> Your eldest siblings middle name? </value>
+      <webElementGuid>eddbe6f0-b4c7-41c5-89d3-20246b5f4d8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-5&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>7271f60e-8de0-4f7d-b07a-2a1253b8e1f8</webElementGuid>
+      <value>id(&quot;mat-option-4&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>ed2ced8b-6365-4b68-a9c1-b8a9296e79b7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-option[@id='mat-option-5']/span</value>
-      <webElementGuid>ce49320e-b49c-4296-92d5-8892c5c23c42</webElementGuid>
+      <value>//mat-option[@id='mat-option-4']/span</value>
+      <webElementGuid>993b92ed-99bf-4ab9-a087-8196aec72e44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your eldest siblings middle name?'])[1]/following::span[1]</value>
-      <webElementGuid>f326867c-30f2-4911-8a42-1f9c6c15b450</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Already a customer?'])[1]/following::span[1]</value>
+      <webElementGuid>c6dc5edf-2699-4cec-8e15-22306a1ec36b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Already a customer?'])[1]/following::span[2]</value>
-      <webElementGuid>1c8d24f4-b708-422e-8c5d-d8c68a94c908</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='person_add'])[1]/following::span[3]</value>
+      <webElementGuid>43c1694e-fd63-4735-8507-f89c2a0b542a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your eldest siblings middle name?']/parent::*</value>
+      <webElementGuid>177a195b-f681-464f-b9a9-503e116c9b8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-option[2]/span</value>
-      <webElementGuid>1caaa14d-aaa2-45de-a8fc-ceaa758e5180</webElementGuid>
+      <value>//mat-option/span</value>
+      <webElementGuid>2158ee55-f07b-4eed-ba02-da6a4a2dddb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = concat(&quot; Mother&quot; , &quot;'&quot; , &quot;s maiden name? &quot;) or . = concat(&quot; Mother&quot; , &quot;'&quot; , &quot;s maiden name? &quot;))]</value>
-      <webElementGuid>9ea7660b-ef2b-47a0-b0a8-0375508c4795</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//mat-option[@id='mat-option-21']/span</value>
-      <webElementGuid>ee044c1c-61dd-4453-9a40-b7b51674fd41</webElementGuid>
+      <value>//span[(text() = ' Your eldest siblings middle name? ' or . = ' Your eldest siblings middle name? ')]</value>
+      <webElementGuid>c496fefa-956e-4e00-ae37-1e54f85aff76</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

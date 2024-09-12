@@ -53,9 +53,9 @@ WebUI.setText(findTestObject('Object Repository/page_Registrasi/input_Security-A
 
 WebUI.click(findTestObject('Object Repository/page_Registrasi/button_Register'))
 
-WebUI.waitForElementVisible(findTestObject('page_Login/lbl_Login'), 0)
+WebUI.waitForElementVisible(findTestObject('page_Registrasi/txterror_email-unique'), 0)
 
-WebUI.verifyElementVisible(findTestObject('page_Login/lbl_Login'))
+WebUI.verifyElementVisible(findTestObject('page_Registrasi/txterror_email-unique'))
 
 WebUI.closeBrowser()
 
