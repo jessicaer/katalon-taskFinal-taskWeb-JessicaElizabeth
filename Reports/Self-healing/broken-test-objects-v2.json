@@ -99,6 +99,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Add-Card/select_Expiry-Year_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Make-Order/New Folder/btn_Address-1",
+      "brokenLocator": "//mat-radio-button[@id\u003d\u0027mat-radio-46\u0027]/label/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Make-Order/New Folder/btn_Address-1_position.png"
     }
   ]
 }
