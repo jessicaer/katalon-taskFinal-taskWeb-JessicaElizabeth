@@ -12,25 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ec991e2c-94cb-4829-b0b0-eb9efec445a1</testSuiteGuid>
    <testCaseLink>
-      <guid>07774111-32e8-4a89-9d74-fa2c48fa14c1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario/TC01 Registration Success</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bc479f9f-48bc-47ab-b197-80a23887eafb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b5ea691f-3636-4758-939b-5dc32549bfa0</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d919835a-37b3-4fc3-b472-7e78e177612a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
