@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a75be3a4-83c3-4ce7-a558-bcd08d9bdcdd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ad9b6b8-5017-4c46-b13d-68e1081a58d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'One Day Delivery'</defaultValue>
+      <description></description>
+      <id>9ad9b6b8-5017-4c46-b13d-68e1081a58d3</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
 </TestCaseEntity>

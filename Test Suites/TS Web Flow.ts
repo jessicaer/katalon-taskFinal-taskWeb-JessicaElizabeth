@@ -78,5 +78,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario/TC05 Make Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ad9b6b8-5017-4c46-b13d-68e1081a58d3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
