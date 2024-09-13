@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Web Flow" time="408.017" tests="6" failures="0" errors="0">
+   <testsuite name="TS Web Flow" tests="6" failures="0" errors="0" time="408.017" skipped="0" timestamp="13-09-2024T23:29:28" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT" id="Test Suites/TS Web Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskWeb-JessicaElizabeth\\Reports\\20240913_232918\\TS Web Flow\\20240913_232918"/>
+         <property name="logFiles" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskWeb-JessicaElizabeth\\Reports\\20240913_232918\\TS Web Flow\\20240913_232918\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.3"/>
+         <property name="sessionId" value="31f5ac2b939f69b3168a751608b0300e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Scenario/TC02 Login Success" time="35.121" classname="Test Cases/Scenario/TC02 Login Success" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:29:28 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC02 Login Success: Test Cases/Scenario/TC02 Login Success
+
+13-09-2024T23:29:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:29:30 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:29:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:29:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:29:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:29:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:29:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:29:35 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:29:35 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:29:41 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:29:42 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:29:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:29:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:29:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:29:43 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:29:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:29:44 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:29:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:29:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:29:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:29:46 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:29:47 - [MESSAGE][PASSED] - Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:29:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:29:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:29:48 - [TEST_STEP][PASSED] - delay(15, STOP_ON_FAILURE): Delayed 15 second(s)
+
+13-09-2024T23:30:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+13-09-2024T23:30:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:30:03 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:30:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:30:04 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:30:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/TC02 Login Success" time="30.226" classname="Test Cases/Scenario/TC02 Login Success" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:30:04 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC02 Login Success: Test Cases/Scenario/TC02 Login Success
+
+13-09-2024T23:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:30:04 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:30:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:30:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:30:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:30:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:30:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:30:06 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:30:06 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:30:13 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:30:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:30:13 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:30:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:30:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:30:14 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:30:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:17 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:30:17 - [MESSAGE][PASSED] - Text 'jessica@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:30:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:30:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:30:18 - [TEST_STEP][PASSED] - delay(15, STOP_ON_FAILURE): Delayed 15 second(s)
+
+13-09-2024T23:30:33 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+13-09-2024T23:30:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:30:33 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:30:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:30:34 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:30:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/TC02 Login Success" time="28.876" classname="Test Cases/Scenario/TC02 Login Success" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:30:34 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC02 Login Success: Test Cases/Scenario/TC02 Login Success
+
+13-09-2024T23:30:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:30:34 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:30:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:30:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:30:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:30:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:30:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:30:36 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:30:36 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:30:42 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:30:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:30:42 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:30:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:30:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:30:43 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:44 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:30:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:30:45 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:46 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:30:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:30:47 - [MESSAGE][PASSED] - Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:30:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:30:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:30:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:30:47 - [TEST_STEP][PASSED] - delay(15, STOP_ON_FAILURE): Delayed 15 second(s)
+
+13-09-2024T23:31:02 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+13-09-2024T23:31:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:31:02 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:31:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:31:03 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:31:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/TC03 Add New Address Success" time="29.349" classname="Test Cases/Scenario/TC03 Add New Address Success" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:31:03 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC03 Add New Address Success: Test Cases/Scenario/TC03 Add New Address Success
+
+13-09-2024T23:31:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:31:03 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:31:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:31:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:31:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:31:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:31:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:31:05 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:31:05 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:31:12 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:31:12 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:31:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:31:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Login"), ["email":"jessica1@gmail.com", "password":"YINYHPdEauSZ3521MwnC1g=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:31:13 - [TEST_CASE][PASSED] - Test Cases/Blocks/Login: Test Cases/Blocks/Login
+
+13-09-2024T23:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:31:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:16 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:16 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:31:17 - [MESSAGE][PASSED] - Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:31:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:31:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:31:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:31:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:19 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:19 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:19 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/button_Account")): Object: 'Object Repository/page_Home/button_Account' is clicked on
+
+13-09-2024T23:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Account' is clicked on
+
+13-09-2024T23:31:20 - [TEST_STEP][PASSED] - click(findTestObject("btn_Account/btn_Orders-Payment")): Object: 'Object Repository/btn_Account/btn_Orders-Payment' is clicked on
+
+13-09-2024T23:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Account/btn_Orders-Payment' is clicked on
+
+13-09-2024T23:31:20 - [TEST_STEP][PASSED] - click(findTestObject("btn_Account/btn_Addresses")): Object: 'Object Repository/btn_Account/btn_Addresses' is clicked on
+
+13-09-2024T23:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Account/btn_Addresses' is clicked on
+
+13-09-2024T23:31:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Address/lbl_Saved-Addresses"), 0): Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Address/lbl_Saved-Addresses")): Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:22 - [TEST_STEP][PASSED] - click(findTestObject("page_Address/btn_Add-New-Address")): Object: 'Object Repository/page_Address/btn_Add-New-Address' is clicked on
+
+13-09-2024T23:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Address/btn_Add-New-Address' is clicked on
+
+13-09-2024T23:31:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Address/page_Add-Address/lbl_Add-New-Address"), 0): Object 'Object Repository/page_Address/page_Add-Address/lbl_Add-New-Address' is visible
+
+13-09-2024T23:31:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:23 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/page_Add-Address/lbl_Add-New-Address' is visible
+
+13-09-2024T23:31:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Address/page_Add-Address/lbl_Add-New-Address")): Object 'Object Repository/page_Address/page_Add-Address/lbl_Add-New-Address' is visible
+
+13-09-2024T23:31:23 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/page_Add-Address/lbl_Add-New-Address' is visible
+
+13-09-2024T23:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Address/page_Add-Address/input_Country"), "Indonesia"): Text 'Indonesia' is set on object 'Object Repository/page_Address/page_Add-Address/input_Country'
+
+13-09-2024T23:31:24 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Address/page_Add-Address/input_Country'
+
+13-09-2024T23:31:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Address/page_Add-Address/input_Name"), "Kinan"): Text 'Kinan' is set on object 'Object Repository/page_Address/page_Add-Address/input_Name'
+
+13-09-2024T23:31:26 - [MESSAGE][PASSED] - Text 'Kinan' is set on object 'Object Repository/page_Address/page_Add-Address/input_Name'
+
+13-09-2024T23:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Address/page_Add-Address/input_Mobile-Number"), "0912378342"): Text '0912378342' is set on object 'Object Repository/page_Address/page_Add-Address/input_Mobile-Number'
+
+13-09-2024T23:31:27 - [MESSAGE][PASSED] - Text '0912378342' is set on object 'Object Repository/page_Address/page_Add-Address/input_Mobile-Number'
+
+13-09-2024T23:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Address/page_Add-Address/input_Zip-Code"), "12342"): Text '12342' is set on object 'Object Repository/page_Address/page_Add-Address/input_Zip-Code'
+
+13-09-2024T23:31:27 - [MESSAGE][PASSED] - Text '12342' is set on object 'Object Repository/page_Address/page_Add-Address/input_Zip-Code'
+
+13-09-2024T23:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Address/page_Add-Address/textarea_Address"), "Jl Imam Bonjol"): Text 'Jl Imam Bonjol' is set on object 'Object Repository/page_Address/page_Add-Address/textarea_Address'
+
+13-09-2024T23:31:28 - [MESSAGE][PASSED] - Text 'Jl Imam Bonjol' is set on object 'Object Repository/page_Address/page_Add-Address/textarea_Address'
+
+13-09-2024T23:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Address/page_Add-Address/input_City"), "Bandung"): Text 'Bandung' is set on object 'Object Repository/page_Address/page_Add-Address/input_City'
+
+13-09-2024T23:31:29 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Address/page_Add-Address/input_City'
+
+13-09-2024T23:31:29 - [TEST_STEP][PASSED] - click(findTestObject("page_Address/page_Add-Address/btn_Submit")): Object: 'Object Repository/page_Address/page_Add-Address/btn_Submit' is clicked on
+
+13-09-2024T23:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Address/page_Add-Address/btn_Submit' is clicked on
+
+13-09-2024T23:31:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Address/lbl_Saved-Addresses"), 5): Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Address/lbl_Saved-Addresses")): Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:32 - [MESSAGE][PASSED] - Object 'Object Repository/page_Address/lbl_Saved-Addresses' is visible
+
+13-09-2024T23:31:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:31:32 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:31:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:31:32 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:31:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/TC04 Add New Card Success" time="212.454" classname="Test Cases/Scenario/TC04 Add New Card Success" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:31:32 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC04 Add New Card Success: Test Cases/Scenario/TC04 Add New Card Success
+
+13-09-2024T23:31:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:31:32 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:31:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:31:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:31:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:31:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:31:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:31:34 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:31:34 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:31:40 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:31:41 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:31:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:42 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:42 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Login"), ["email":"jessica1@gmail.com", "password":"YINYHPdEauSZ3521MwnC1g=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:31:42 - [TEST_CASE][PASSED] - Test Cases/Blocks/Login: Test Cases/Blocks/Login
+
+13-09-2024T23:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:31:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:44 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:44 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:31:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:31:45 - [MESSAGE][PASSED] - Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:31:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:31:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:31:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:31:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:31:48 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/button_Account")): Object: 'Object Repository/page_Home/button_Account' is clicked on
+
+13-09-2024T23:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Account' is clicked on
+
+13-09-2024T23:31:48 - [TEST_STEP][PASSED] - click(findTestObject("btn_Account/btn_Orders-Payment")): Object: 'Object Repository/btn_Account/btn_Orders-Payment' is clicked on
+
+13-09-2024T23:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Account/btn_Orders-Payment' is clicked on
+
+13-09-2024T23:31:49 - [TEST_STEP][PASSED] - click(findTestObject("btn_Account/btn_Payment-Options-Card")): Object: 'Object Repository/btn_Account/btn_Payment-Options-Card' is clicked on
+
+13-09-2024T23:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Account/btn_Payment-Options-Card' is clicked on
+
+13-09-2024T23:31:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Add-Card/txt_My-Payment-Options"), 0): Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:31:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Add-Card/txt_My-Payment-Options")): Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:31:51 - [TEST_STEP][PASSED] - click(findTestObject("page_Add-Card/expansion-panel_Add-New-Card")): Object: 'Object Repository/page_Add-Card/expansion-panel_Add-New-Card' is clicked on
+
+13-09-2024T23:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Add-Card/expansion-panel_Add-New-Card' is clicked on
+
+13-09-2024T23:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("page_Add-Card/input_Name"), "Jessica"): Text 'Jessica' is set on object 'Object Repository/page_Add-Card/input_Name'
+
+13-09-2024T23:32:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='mat-input-45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:32:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/input_Name'. Try using Self-healing.
+
+13-09-2024T23:32:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/input_Name' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-09-2024T23:32:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='mat-input-45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:32:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/input_Name'. Try using Self-healing.
+
+13-09-2024T23:32:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/input_Name' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-09-2024T23:32:55 - [MESSAGE][PASSED] - Text 'Jessica' is set on object 'Object Repository/page_Add-Card/input_Name'
+
+13-09-2024T23:32:55 - [TEST_STEP][PASSED] - setText(findTestObject("page_Add-Card/input_Card-Number"), "1234567891012131"): Text '1234567891012131' is set on object 'Object Repository/page_Add-Card/input_Card-Number'
+
+13-09-2024T23:33:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='mat-input-46']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:33:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/input_Card-Number'. Try using Self-healing.
+
+13-09-2024T23:33:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/input_Card-Number' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-09-2024T23:33:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='mat-input-46']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:33:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/input_Card-Number'. Try using Self-healing.
+
+13-09-2024T23:33:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/input_Card-Number' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-09-2024T23:33:58 - [MESSAGE][PASSED] - Text '1234567891012131' is set on object 'Object Repository/page_Add-Card/input_Card-Number'
+
+13-09-2024T23:33:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Add-Card/select_Expiry-Month"), "10", false): All options with label '10' are selected in object 'Object Repository/page_Add-Card/select_Expiry-Month' 
+
+13-09-2024T23:34:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-47']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:34:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/select_Expiry-Month'. Try using Self-healing.
+
+13-09-2024T23:34:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/select_Expiry-Month' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[3]/div/div/div[3]/select'.
+
+13-09-2024T23:34:30 - [MESSAGE][PASSED] - All options with label '10' are selected in object 'Object Repository/page_Add-Card/select_Expiry-Month' 
+
+13-09-2024T23:34:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Add-Card/select_Expiry-Year"), "2090", false): All options with label '2090' are selected in object 'Object Repository/page_Add-Card/select_Expiry-Year' 
+
+13-09-2024T23:35:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-48']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:35:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Add-Card/select_Expiry-Year'. Try using Self-healing.
+
+13-09-2024T23:35:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Add-Card/select_Expiry-Year' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[4]/div/div/div[3]/select'.
+
+13-09-2024T23:35:02 - [MESSAGE][PASSED] - All options with label '2090' are selected in object 'Object Repository/page_Add-Card/select_Expiry-Year' 
+
+13-09-2024T23:35:02 - [TEST_STEP][PASSED] - click(findTestObject("page_Add-Card/button_send-Submit")): Object: 'Object Repository/page_Add-Card/button_send-Submit' is clicked on
+
+13-09-2024T23:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Add-Card/button_send-Submit' is clicked on
+
+13-09-2024T23:35:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Add-Card/txt_My-Payment-Options"), 15): Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:35:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Add-Card/txt_My-Payment-Options")): Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/page_Add-Card/txt_My-Payment-Options' is visible
+
+13-09-2024T23:35:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:35:04 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:35:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:35:05 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - 
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - ==============================================================
+
+13-09-2024T23:35:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario/TC05 Make Order" time="71.191" classname="Test Cases/Scenario/TC05 Make Order" status="PASSED">
+         <system-out><![CDATA[13-09-2024T23:35:05 - [TEST_CASE][PASSED] - Test Cases/Scenario/TC05 Make Order: Test Cases/Scenario/TC05 Make Order
+
+13-09-2024T23:35:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:35:05 - [TEST_CASE][PASSED] - Test Cases/Blocks/Open Browser: Test Cases/Blocks/Open Browser
+
+13-09-2024T23:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T23:35:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T23:35:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T23:35:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-09-2024T23:35:07 - [MESSAGE][PASSED] - Current window maximized
+
+13-09-2024T23:35:07 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:35:13 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-09-2024T23:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_visibility-Dismiss")): Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_visibility-Dismiss' is clicked on
+
+13-09-2024T23:35:13 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/a_Me-Want-It")): Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/a_Me-Want-It' is clicked on
+
+13-09-2024T23:35:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Open Browser' successfully
+
+13-09-2024T23:35:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:14 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:14 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Login"), ["email":"jessica1@gmail.com", "password":"YINYHPdEauSZ3521MwnC1g=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:35:14 - [TEST_CASE][PASSED] - Test Cases/Blocks/Login: Test Cases/Blocks/Login
+
+13-09-2024T23:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_account")): Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_account' is clicked on
+
+13-09-2024T23:35:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Login")): Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Login' is clicked on
+
+13-09-2024T23:35:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("page_Login/lbl_Login"), 0): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:35:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:35:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Login/lbl_Login")): Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:35:17 - [MESSAGE][PASSED] - Object 'Object Repository/page_Login/lbl_Login' is visible
+
+13-09-2024T23:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Login/input_email"), email): Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:35:18 - [MESSAGE][PASSED] - Text 'jessica1@gmail.com' is set on object 'Object Repository/page_Login/input_email'
+
+13-09-2024T23:35:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/page_Login/input_password"), password): Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:35:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_Login/input_password'
+
+13-09-2024T23:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Login/btn_login")): Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Login/btn_login' is clicked on
+
+13-09-2024T23:35:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Login' successfully
+
+13-09-2024T23:35:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products"), 0): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:21 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Home/lbl_Home-All-Products")): Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:21 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/lbl_Home-All-Products' is visible
+
+13-09-2024T23:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Add-Basket-Apple-Juice")): Object: 'Object Repository/page_Home/button_Add-Basket-Apple-Juice' is clicked on
+
+13-09-2024T23:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Add-Basket-Apple-Juice' is clicked on
+
+13-09-2024T23:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/button_Add-Basket-Apple-Pomace")): Object: 'Object Repository/page_Home/button_Add-Basket-Apple-Pomace' is clicked on
+
+13-09-2024T23:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/button_Add-Basket-Apple-Pomace' is clicked on
+
+13-09-2024T23:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Home/btn_Your-Basket")): Object: 'Object Repository/page_Home/btn_Your-Basket' is clicked on
+
+13-09-2024T23:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Your-Basket' is clicked on
+
+13-09-2024T23:35:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Your-Basket"), 0): Object 'Object Repository/page_Make-Order/lbl_Your-Basket' is visible
+
+13-09-2024T23:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:30 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Your-Basket' is visible
+
+13-09-2024T23:35:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Your-Basket")): Object 'Object Repository/page_Make-Order/lbl_Your-Basket' is visible
+
+13-09-2024T23:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Your-Basket' is visible
+
+13-09-2024T23:35:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Make-Order/btn_Checkout")): Object: 'Object Repository/page_Make-Order/btn_Checkout' is clicked on
+
+13-09-2024T23:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/btn_Checkout' is clicked on
+
+13-09-2024T23:35:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Select-Address"), 0): Object 'Object Repository/page_Make-Order/lbl_Select-Address' is visible
+
+13-09-2024T23:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:35 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Select-Address' is visible
+
+13-09-2024T23:35:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Select-Address")): Object 'Object Repository/page_Make-Order/lbl_Select-Address' is visible
+
+13-09-2024T23:35:35 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Select-Address' is visible
+
+13-09-2024T23:35:35 - [TEST_STEP][PASSED] - click(findTestObject("page_Make-Order/radio-btn_Address")): Object: 'Object Repository/page_Make-Order/radio-btn_Address' is clicked on
+
+13-09-2024T23:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/radio-btn_Address' is clicked on
+
+13-09-2024T23:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Make-Order/button_Continue-1")): Object: 'Object Repository/page_Make-Order/button_Continue-1' is clicked on
+
+13-09-2024T23:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/button_Continue-1' is clicked on
+
+13-09-2024T23:35:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Choose-Delivery"), 0): Object 'Object Repository/page_Make-Order/lbl_Choose-Delivery' is visible
+
+13-09-2024T23:35:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:37 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Choose-Delivery' is visible
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Choose-Delivery")): Object 'Object Repository/page_Make-Order/lbl_Choose-Delivery' is visible
+
+13-09-2024T23:35:37 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Choose-Delivery' is visible
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - select_radio = delivery: null
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - switch (select_radio): null
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - case select_radio = "One Day Delivery":: null
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - println(select_radio): null
+
+13-09-2024T23:35:37 - [TEST_STEP][PASSED] - click(findTestObject("page_Make-Order/radio-btn_One-Day-Delivery")): Object: 'Object Repository/page_Make-Order/radio-btn_One-Day-Delivery' is clicked on
+
+13-09-2024T23:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/radio-btn_One-Day-Delivery' is clicked on
+
+13-09-2024T23:35:38 - [TEST_STEP][PASSED] - break: null
+
+13-09-2024T23:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Make-Order/button_Continue-2")): Object: 'Object Repository/page_Make-Order/button_Continue-2' is clicked on
+
+13-09-2024T23:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/button_Continue-2' is clicked on
+
+13-09-2024T23:35:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Payment-Options"), 0): Object 'Object Repository/page_Make-Order/lbl_Payment-Options' is visible
+
+13-09-2024T23:35:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:35:39 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Payment-Options' is visible
+
+13-09-2024T23:35:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Payment-Options")): Object 'Object Repository/page_Make-Order/lbl_Payment-Options' is visible
+
+13-09-2024T23:35:39 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Payment-Options' is visible
+
+13-09-2024T23:35:39 - [TEST_STEP][PASSED] - click(findTestObject("page_Make-Order/radio-btn_Payment-Card")): Object: 'Object Repository/page_Make-Order/radio-btn_Payment-Card' is clicked on
+
+13-09-2024T23:36:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-radio-button[@id='mat-radio-49']/label/span/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-09-2024T23:36:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/page_Make-Order/radio-btn_Payment-Card'. Try using Self-healing.
+
+13-09-2024T23:36:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/page_Make-Order/radio-btn_Payment-Card' was broken. Propose an alternative one: '//label/span/span[2]'.
+
+13-09-2024T23:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/radio-btn_Payment-Card' is clicked on
+
+13-09-2024T23:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Make-Order/btn_Continue-3")): Object: 'Object Repository/page_Make-Order/btn_Continue-3' is clicked on
+
+13-09-2024T23:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/btn_Continue-3' is clicked on
+
+13-09-2024T23:36:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Order-Summary"), 0): Object 'Object Repository/page_Make-Order/lbl_Order-Summary' is visible
+
+13-09-2024T23:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-09-2024T23:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Order-Summary' is visible
+
+13-09-2024T23:36:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Order-Summary")): Object 'Object Repository/page_Make-Order/lbl_Order-Summary' is visible
+
+13-09-2024T23:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Order-Summary' is visible
+
+13-09-2024T23:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page_Make-Order/btn_Checkout")): Object: 'Object Repository/page_Make-Order/btn_Checkout' is clicked on
+
+13-09-2024T23:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Make-Order/btn_Checkout' is clicked on
+
+13-09-2024T23:36:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Thank-for-Purchase"), 20): Object 'Object Repository/page_Make-Order/lbl_Thank-for-Purchase' is visible
+
+13-09-2024T23:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Thank-for-Purchase' is visible
+
+13-09-2024T23:36:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Make-Order/lbl_Thank-for-Purchase")): Object 'Object Repository/page_Make-Order/lbl_Thank-for-Purchase' is visible
+
+13-09-2024T23:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/page_Make-Order/lbl_Thank-for-Purchase' is visible
+
+13-09-2024T23:36:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Close Browser' successfully
+
+13-09-2024T23:36:15 - [TEST_CASE][PASSED] - Test Cases/Blocks/Close Browser: Test Cases/Blocks/Close Browser
+
+13-09-2024T23:36:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T23:36:16 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2024T23:36:16 - [MESSAGE][INFO] - 
+
+13-09-2024T23:36:16 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+13-09-2024T23:36:16 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+13-09-2024T23:36:16 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+13-09-2024T23:36:16 - [MESSAGE][INFO] - ==============================================================
+
+13-09-2024T23:36:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2024T23:29:28 - [TEST_SUITE][PASSED] - TS Web Flow: Test Cases/Scenario/TC05 Make Order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

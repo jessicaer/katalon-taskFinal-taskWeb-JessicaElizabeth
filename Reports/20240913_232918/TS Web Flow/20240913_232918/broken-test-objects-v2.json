@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Add-Card/input_Name",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-45\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field/div/div/div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_232918/TS Web Flow/20240913_232918/Object Repository/page_Add-Card/input_Name_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Add-Card/input_Card-Number",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-46\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[2]/div/div/div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_232918/TS Web Flow/20240913_232918/Object Repository/page_Add-Card/input_Card-Number_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Add-Card/select_Expiry-Month",
+      "brokenLocator": "//select[@id\u003d\u0027mat-input-47\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[3]/div/div/div[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_232918/TS Web Flow/20240913_232918/Object Repository/page_Add-Card/select_Expiry-Month_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Add-Card/select_Expiry-Year",
+      "brokenLocator": "//select[@id\u003d\u0027mat-input-48\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[4]/div/div/div[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_232918/TS Web Flow/20240913_232918/Object Repository/page_Add-Card/select_Expiry-Year_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Make-Order/radio-btn_Payment-Card",
+      "brokenLocator": "//mat-radio-button[@id\u003d\u0027mat-radio-49\u0027]/label/span/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/span/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_232918/TS Web Flow/20240913_232918/Object Repository/page_Make-Order/radio-btn_Payment-Card_position.png"
+    }
+  ]
+}

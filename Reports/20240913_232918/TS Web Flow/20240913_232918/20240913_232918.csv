@@ -1,0 +1,125 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Web Flow,Chrome 128.0.0.0,,,13-09-2024 23:29:28,13-09-2024 23:36:16,6m - 48.017s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC02 Login Success,Chrome 128.0.0.0,,,13-09-2024 23:29:28,13-09-2024 23:30:04,35.121s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:29:29,13-09-2024 23:29:43,13.180s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:29:43,13-09-2024 23:29:43,0.882s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:29:43,13-09-2024 23:29:44,0.401s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_account""))",Chrome 128.0.0.0,,,13-09-2024 23:29:44,13-09-2024 23:29:44,0.397s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:29:44,13-09-2024 23:29:45,0.600s,PASSED
+"waitForElementVisible(findTestObject(""page_Login/lbl_Login""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:29:45,13-09-2024 23:29:46,0.719s,PASSED
+"verifyElementVisible(findTestObject(""page_Login/lbl_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:29:46,13-09-2024 23:29:46,0.310s,PASSED
+"setText(findTestObject(""Object Repository/page_Login/input_email""), email)",Chrome 128.0.0.0,,,13-09-2024 23:29:46,13-09-2024 23:29:47,0.928s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page_Login/input_password""), password)",Chrome 128.0.0.0,,,13-09-2024 23:29:47,13-09-2024 23:29:47,0.579s,PASSED
+"click(findTestObject(""Object Repository/page_Login/btn_login""))",Chrome 128.0.0.0,,,13-09-2024 23:29:47,13-09-2024 23:29:48,0.413s,PASSED
+"delay(15, STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:29:48,13-09-2024 23:30:03,15.051s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:03,13-09-2024 23:30:04,0.728s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC02 Login Success,Chrome 128.0.0.0,,,13-09-2024 23:30:04,13-09-2024 23:30:34,30.226s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:04,13-09-2024 23:30:14,10.130s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:30:14,13-09-2024 23:30:14,0.331s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:30:14,13-09-2024 23:30:15,0.336s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_account""))",Chrome 128.0.0.0,,,13-09-2024 23:30:15,13-09-2024 23:30:15,0.398s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:15,13-09-2024 23:30:16,0.609s,PASSED
+"waitForElementVisible(findTestObject(""page_Login/lbl_Login""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:30:16,13-09-2024 23:30:16,0.757s,PASSED
+"verifyElementVisible(findTestObject(""page_Login/lbl_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:16,13-09-2024 23:30:17,0.318s,PASSED
+"setText(findTestObject(""Object Repository/page_Login/input_email""), email)",Chrome 128.0.0.0,,,13-09-2024 23:30:17,13-09-2024 23:30:17,0.842s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page_Login/input_password""), password)",Chrome 128.0.0.0,,,13-09-2024 23:30:17,13-09-2024 23:30:18,0.328s,PASSED
+"click(findTestObject(""Object Repository/page_Login/btn_login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:18,13-09-2024 23:30:18,0.420s,PASSED
+"delay(15, STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:18,13-09-2024 23:30:33,15.007s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:33,13-09-2024 23:30:34,0.600s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC02 Login Success,Chrome 128.0.0.0,,,13-09-2024 23:30:34,13-09-2024 23:31:03,28.876s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:34,13-09-2024 23:30:43,8.918s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:30:43,13-09-2024 23:30:43,0.375s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:30:43,13-09-2024 23:30:44,0.307s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_account""))",Chrome 128.0.0.0,,,13-09-2024 23:30:44,13-09-2024 23:30:44,0.379s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:44,13-09-2024 23:30:45,0.689s,PASSED
+"waitForElementVisible(findTestObject(""page_Login/lbl_Login""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:30:45,13-09-2024 23:30:45,0.766s,PASSED
+"verifyElementVisible(findTestObject(""page_Login/lbl_Login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:45,13-09-2024 23:30:46,0.303s,PASSED
+"setText(findTestObject(""Object Repository/page_Login/input_email""), email)",Chrome 128.0.0.0,,,13-09-2024 23:30:46,13-09-2024 23:30:47,0.861s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/page_Login/input_password""), password)",Chrome 128.0.0.0,,,13-09-2024 23:30:47,13-09-2024 23:30:47,0.260s,PASSED
+"click(findTestObject(""Object Repository/page_Login/btn_login""))",Chrome 128.0.0.0,,,13-09-2024 23:30:47,13-09-2024 23:30:47,0.361s,PASSED
+"delay(15, STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:30:47,13-09-2024 23:31:02,15.007s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:02,13-09-2024 23:31:03,0.601s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC03 Add New Address Success,Chrome 128.0.0.0,,,13-09-2024 23:31:03,13-09-2024 23:31:32,29.349s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:03,13-09-2024 23:31:13,9.628s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:13,13-09-2024 23:31:13,0.313s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:31:13,13-09-2024 23:31:13,0.300s,PASSED
+"callTestCase(findTestCase(""Blocks/Login""), [""email"":""jessica1@gmail.com"", ""password"":""YINYHPdEauSZ3521MwnC1g==""], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:13,13-09-2024 23:31:17,4.064s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:17,13-09-2024 23:31:19,1.358s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:31:19,13-09-2024 23:31:19,0.315s,PASSED
+"click(findTestObject(""page_Home/button_Account""))",Chrome 128.0.0.0,,,13-09-2024 23:31:19,13-09-2024 23:31:20,0.603s,PASSED
+"click(findTestObject(""btn_Account/btn_Orders-Payment""))",Chrome 128.0.0.0,,,13-09-2024 23:31:20,13-09-2024 23:31:20,0.552s,PASSED
+"click(findTestObject(""btn_Account/btn_Addresses""))",Chrome 128.0.0.0,,,13-09-2024 23:31:20,13-09-2024 23:31:21,0.578s,PASSED
+"waitForElementVisible(findTestObject(""page_Address/lbl_Saved-Addresses""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:21,13-09-2024 23:31:22,0.782s,PASSED
+"verifyElementVisible(findTestObject(""page_Address/lbl_Saved-Addresses""))",Chrome 128.0.0.0,,,13-09-2024 23:31:22,13-09-2024 23:31:22,0.314s,PASSED
+"click(findTestObject(""page_Address/btn_Add-New-Address""))",Chrome 128.0.0.0,,,13-09-2024 23:31:22,13-09-2024 23:31:22,0.526s,PASSED
+"waitForElementVisible(findTestObject(""page_Address/page_Add-Address/lbl_Add-New-Address""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:22,13-09-2024 23:31:23,0.591s,PASSED
+"verifyElementVisible(findTestObject(""page_Address/page_Add-Address/lbl_Add-New-Address""))",Chrome 128.0.0.0,,,13-09-2024 23:31:23,13-09-2024 23:31:23,0.381s,PASSED
+"setText(findTestObject(""page_Address/page_Add-Address/input_Country""), ""Indonesia"")",Chrome 128.0.0.0,,,13-09-2024 23:31:23,13-09-2024 23:31:24,0.990s,PASSED
+"setText(findTestObject(""Object Repository/page_Address/page_Add-Address/input_Name""), ""Kinan"")",Chrome 128.0.0.0,,,13-09-2024 23:31:24,13-09-2024 23:31:26,1.089s,PASSED
+"setText(findTestObject(""Object Repository/page_Address/page_Add-Address/input_Mobile-Number""), ""0912378342"")",Chrome 128.0.0.0,,,13-09-2024 23:31:26,13-09-2024 23:31:27,0.981s,PASSED
+"setText(findTestObject(""Object Repository/page_Address/page_Add-Address/input_Zip-Code""), ""12342"")",Chrome 128.0.0.0,,,13-09-2024 23:31:27,13-09-2024 23:31:27,0.948s,PASSED
+"setText(findTestObject(""Object Repository/page_Address/page_Add-Address/textarea_Address""), ""Jl Imam Bonjol"")",Chrome 128.0.0.0,,,13-09-2024 23:31:27,13-09-2024 23:31:28,0.888s,PASSED
+"setText(findTestObject(""Object Repository/page_Address/page_Add-Address/input_City""), ""Bandung"")",Chrome 128.0.0.0,,,13-09-2024 23:31:28,13-09-2024 23:31:29,0.868s,PASSED
+"click(findTestObject(""page_Address/page_Add-Address/btn_Submit""))",Chrome 128.0.0.0,,,13-09-2024 23:31:29,13-09-2024 23:31:30,0.482s,PASSED
+"waitForElementVisible(findTestObject(""page_Address/lbl_Saved-Addresses""), 5)",Chrome 128.0.0.0,,,13-09-2024 23:31:30,13-09-2024 23:31:31,1.580s,PASSED
+"verifyElementVisible(findTestObject(""page_Address/lbl_Saved-Addresses""))",Chrome 128.0.0.0,,,13-09-2024 23:31:31,13-09-2024 23:31:32,0.304s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:32,13-09-2024 23:31:32,0.569s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC04 Add New Card Success,Chrome 128.0.0.0,,,13-09-2024 23:31:32,13-09-2024 23:35:05,3m - 32.454s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:32,13-09-2024 23:31:42,9.171s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:42,13-09-2024 23:31:42,0.326s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:31:42,13-09-2024 23:31:42,0.309s,PASSED
+"callTestCase(findTestCase(""Blocks/Login""), [""email"":""jessica1@gmail.com"", ""password"":""YINYHPdEauSZ3521MwnC1g==""], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:31:42,13-09-2024 23:31:46,3.969s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:46,13-09-2024 23:31:48,1.498s,PASSED
+"verifyElementVisible(findTestObject(""page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:31:48,13-09-2024 23:31:48,0.290s,PASSED
+"click(findTestObject(""page_Home/button_Account""))",Chrome 128.0.0.0,,,13-09-2024 23:31:48,13-09-2024 23:31:48,0.358s,PASSED
+"click(findTestObject(""btn_Account/btn_Orders-Payment""))",Chrome 128.0.0.0,,,13-09-2024 23:31:48,13-09-2024 23:31:49,0.670s,PASSED
+"click(findTestObject(""btn_Account/btn_Payment-Options-Card""))",Chrome 128.0.0.0,,,13-09-2024 23:31:49,13-09-2024 23:31:50,0.660s,PASSED
+"waitForElementVisible(findTestObject(""page_Add-Card/txt_My-Payment-Options""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:31:50,13-09-2024 23:31:50,0.768s,PASSED
+"verifyElementVisible(findTestObject(""page_Add-Card/txt_My-Payment-Options""))",Chrome 128.0.0.0,,,13-09-2024 23:31:50,13-09-2024 23:31:51,0.321s,PASSED
+"click(findTestObject(""page_Add-Card/expansion-panel_Add-New-Card""))",Chrome 128.0.0.0,,,13-09-2024 23:31:51,13-09-2024 23:31:51,0.487s,PASSED
+"setText(findTestObject(""page_Add-Card/input_Name""), ""Jessica"")",Chrome 128.0.0.0,,,13-09-2024 23:31:51,13-09-2024 23:32:55,1m - 3.324s,PASSED
+"setText(findTestObject(""page_Add-Card/input_Card-Number""), ""1234567891012131"")",Chrome 128.0.0.0,,,13-09-2024 23:32:55,13-09-2024 23:33:58,1m - 3.294s,PASSED
+"selectOptionByLabel(findTestObject(""page_Add-Card/select_Expiry-Month""), ""10"", false)",Chrome 128.0.0.0,,,13-09-2024 23:33:58,13-09-2024 23:34:30,32.006s,PASSED
+"selectOptionByLabel(findTestObject(""page_Add-Card/select_Expiry-Year""), ""2090"", false)",Chrome 128.0.0.0,,,13-09-2024 23:34:30,13-09-2024 23:35:02,31.858s,PASSED
+"click(findTestObject(""page_Add-Card/button_send-Submit""))",Chrome 128.0.0.0,,,13-09-2024 23:35:02,13-09-2024 23:35:02,0.405s,PASSED
+"waitForElementVisible(findTestObject(""page_Add-Card/txt_My-Payment-Options""), 15)",Chrome 128.0.0.0,,,13-09-2024 23:35:02,13-09-2024 23:35:04,1.703s,PASSED
+"verifyElementVisible(findTestObject(""page_Add-Card/txt_My-Payment-Options""))",Chrome 128.0.0.0,,,13-09-2024 23:35:04,13-09-2024 23:35:04,0.300s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:35:04,13-09-2024 23:35:05,0.498s,PASSED
+,,,,,,,
+Test Cases/Scenario/TC05 Make Order,Chrome 128.0.0.0,,,13-09-2024 23:35:05,13-09-2024 23:36:16,1m - 11.191s,PASSED
+"callTestCase(findTestCase(""Blocks/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:35:05,13-09-2024 23:35:14,8.670s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:14,13-09-2024 23:35:14,0.302s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:35:14,13-09-2024 23:35:14,0.317s,PASSED
+"callTestCase(findTestCase(""Blocks/Login""), [""email"":""jessica1@gmail.com"", ""password"":""YINYHPdEauSZ3521MwnC1g==""], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:35:14,13-09-2024 23:35:19,4.607s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:19,13-09-2024 23:35:21,1.618s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Home/lbl_Home-All-Products""))",Chrome 128.0.0.0,,,13-09-2024 23:35:21,13-09-2024 23:35:21,0.322s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_Add-Basket-Apple-Juice""))",Chrome 128.0.0.0,,,13-09-2024 23:35:21,13-09-2024 23:35:21,0.396s,PASSED
+"click(findTestObject(""Object Repository/page_Home/button_Add-Basket-Apple-Pomace""))",Chrome 128.0.0.0,,,13-09-2024 23:35:21,13-09-2024 23:35:28,6.192s,PASSED
+"click(findTestObject(""Object Repository/page_Home/btn_Your-Basket""))",Chrome 128.0.0.0,,,13-09-2024 23:35:28,13-09-2024 23:35:29,1.959s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Your-Basket""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:29,13-09-2024 23:35:30,0.799s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Your-Basket""))",Chrome 128.0.0.0,,,13-09-2024 23:35:30,13-09-2024 23:35:31,0.337s,PASSED
+"click(findTestObject(""Object Repository/page_Make-Order/btn_Checkout""))",Chrome 128.0.0.0,,,13-09-2024 23:35:31,13-09-2024 23:35:34,3.389s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Select-Address""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:34,13-09-2024 23:35:35,0.992s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Select-Address""))",Chrome 128.0.0.0,,,13-09-2024 23:35:35,13-09-2024 23:35:35,0.301s,PASSED
+"click(findTestObject(""page_Make-Order/radio-btn_Address""))",Chrome 128.0.0.0,Pilih Alamat,,13-09-2024 23:35:35,13-09-2024 23:35:36,0.416s,PASSED
+"click(findTestObject(""Object Repository/page_Make-Order/button_Continue-1""))",Chrome 128.0.0.0,,,13-09-2024 23:35:36,13-09-2024 23:35:36,0.489s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Choose-Delivery""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:36,13-09-2024 23:35:37,0.771s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Choose-Delivery""))",Chrome 128.0.0.0,,,13-09-2024 23:35:37,13-09-2024 23:35:37,0.316s,PASSED
+select_radio = delivery,Chrome 128.0.0.0,Pilih Expected Delivery,,13-09-2024 23:35:37,13-09-2024 23:35:37,0.003s,PASSED
+switch (select_radio),Chrome 128.0.0.0,,,13-09-2024 23:35:37,13-09-2024 23:35:38,0.440s,PASSED
+"click(findTestObject(""Object Repository/page_Make-Order/button_Continue-2""))",Chrome 128.0.0.0,,,13-09-2024 23:35:38,13-09-2024 23:35:38,0.547s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Payment-Options""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:35:38,13-09-2024 23:35:39,0.872s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Payment-Options""))",Chrome 128.0.0.0,,,13-09-2024 23:35:39,13-09-2024 23:35:39,0.284s,PASSED
+"click(findTestObject(""page_Make-Order/radio-btn_Payment-Card""))",Chrome 128.0.0.0,Pilih Metode Pembayaran ,,13-09-2024 23:35:39,13-09-2024 23:36:11,31.613s,PASSED
+"click(findTestObject(""Object Repository/page_Make-Order/btn_Continue-3""))",Chrome 128.0.0.0,,,13-09-2024 23:36:11,13-09-2024 23:36:12,0.642s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Order-Summary""), 0)",Chrome 128.0.0.0,,,13-09-2024 23:36:12,13-09-2024 23:36:13,1.340s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Order-Summary""))",Chrome 128.0.0.0,,,13-09-2024 23:36:13,13-09-2024 23:36:13,0.285s,PASSED
+"click(findTestObject(""Object Repository/page_Make-Order/btn_Checkout""))",Chrome 128.0.0.0,,,13-09-2024 23:36:13,13-09-2024 23:36:14,0.339s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Thank-for-Purchase""), 20)",Chrome 128.0.0.0,,,13-09-2024 23:36:14,13-09-2024 23:36:15,1.369s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Make-Order/lbl_Thank-for-Purchase""))",Chrome 128.0.0.0,,,13-09-2024 23:36:15,13-09-2024 23:36:15,0.288s,PASSED
+"callTestCase(findTestCase(""Blocks/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 128.0.0.0,,,13-09-2024 23:36:15,13-09-2024 23:36:16,0.543s,PASSED
