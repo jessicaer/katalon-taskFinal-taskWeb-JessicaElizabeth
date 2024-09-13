@@ -3,22 +3,22 @@
    <description></description>
    <name>radio-btn_Fast-Delivery</name>
    <tag></tag>
-   <elementGuidId>78776823-824e-486d-af82-d8cd2b60172d</elementGuidId>
+   <elementGuidId>2d5a3287-d1ed-4d3e-8a80-a1bff7948215</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-radio-button[@id='mat-radio-46']/label/span/span</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#mat-radio-46 > label.mat-radio-label > span.mat-radio-container > span.mat-radio-outer-circle</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Delivery'])[1]/following::mat-cell[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#mat-radio-46 > .mat-radio-label > .mat-radio-container > .mat-radio-outer-circle</value>
+         <value>internal:role=cell[name=&quot;Fast Delivery&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,39 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>38ad63aa-0e01-4b03-83e2-b9131ba009d1</webElementGuid>
+      <value>mat-cell</value>
+      <webElementGuid>96ddd68d-56ef-4a42-abc1-397746d1bf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>cell</value>
+      <webElementGuid>715094b3-180a-46d3-95ac-6ec35b4a19c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxflex</name>
+      <type>Main</type>
+      <value>30%</value>
+      <webElementGuid>a824c90e-b049-4ec0-a43b-25cf2ccd0e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-radio-outer-circle</value>
-      <webElementGuid>845fd8c0-4b7a-47e0-af3d-bf1e1c676324</webElementGuid>
+      <value>mat-cell cdk-cell cdk-column-Name mat-column-Name ng-star-inserted</value>
+      <webElementGuid>78afd39f-0a79-4050-a1ad-319431627f0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Fast Delivery</value>
+      <webElementGuid>76b57462-ab75-4e54-9d18-7e2ffbd99675</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-radio-46&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]/span[@class=&quot;mat-radio-outer-circle&quot;]</value>
-      <webElementGuid>6a08d3af-ce90-46a2-9ac1-d44b03450351</webElementGuid>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;mat-app-background bluegrey-lightgreen-theme&quot;]/app-root[1]/div[@class=&quot;mat-typography&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/app-delivery-method[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator mat-elevation-z6&quot;]/div[3]/mat-table[@class=&quot;mat-table cdk-table&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-Name mat-column-Name ng-star-inserted&quot;]</value>
+      <webElementGuid>c454db26-92e9-4256-bc54-0338dafdb43d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-46']/label/span/span</value>
-      <webElementGuid>9331bceb-c5fb-4860-b1cf-6593e664c999</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Delivery'])[1]/following::mat-cell[6]</value>
+      <webElementGuid>5a331867-e367-488b-bf54-483cee95028b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-row[2]/mat-cell/mat-radio-button/label/span/span</value>
-      <webElementGuid>dc6cbce9-a2f7-4425-9cba-771662f6ec59</webElementGuid>
+      <value>//mat-row[2]/mat-cell[2]</value>
+      <webElementGuid>dcaf76ce-e320-4ea3-b2b2-f2b0961136e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-cell[(text() = ' Fast Delivery' or . = ' Fast Delivery')]</value>
+      <webElementGuid>9bd81255-b136-4c35-8a5d-4247f2bc230c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

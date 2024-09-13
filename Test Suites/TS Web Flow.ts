@@ -35,17 +35,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario/TC02 Login Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6aadde6c-aeb1-40bd-8822-0c1367637439</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Data/data-login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6aadde6c-aeb1-40bd-8822-0c1367637439</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>ccb78266-0865-40a1-a01d-f533efd3f22d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6aadde6c-aeb1-40bd-8822-0c1367637439</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>912ec2d8-24a9-43de-8a0d-0c8722067ce6</variableId>
       </variableLink>
    </testCaseLink>

@@ -36,11 +36,11 @@ WebUI.click(findTestObject('btn_Account/btn_Orders-Payment'))
 
 WebUI.click(findTestObject('btn_Account/btn_Payment-Options-Card'))
 
-WebUI.waitForElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'), 0)
+WebUI.waitForElementVisible(findTestObject('page_Add-Card/txt_My-Payment-Options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'))
+WebUI.verifyElementVisible(findTestObject('page_Add-Card/txt_My-Payment-Options'))
 
-WebUI.click(findTestObject('page_Add-Card/radio-btn_Address'))
+WebUI.click(findTestObject('page_Add-Card/expansion-panel_Add-New-Card'))
 
 WebUI.setText(findTestObject('page_Add-Card/input_Name'), 'Jessica')
 
@@ -50,11 +50,11 @@ WebUI.selectOptionByLabel(findTestObject('page_Add-Card/select_Expiry-Month'), '
 
 WebUI.selectOptionByLabel(findTestObject('page_Add-Card/select_Expiry-Year'), '2090', false)
 
-WebUI.click(findTestObject('page_Add-Card/btn_Submit'))
+WebUI.click(findTestObject('page_Add-Card/button_send-Submit'))
 
-WebUI.waitForElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'), 5)
+WebUI.waitForElementVisible(findTestObject('page_Add-Card/txt_My-Payment-Options'), 15)
 
-WebUI.verifyElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'))
+WebUI.verifyElementVisible(findTestObject('page_Add-Card/txt_My-Payment-Options'))
 
 WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

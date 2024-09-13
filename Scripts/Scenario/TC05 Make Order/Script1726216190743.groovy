@@ -46,7 +46,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lb
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Select-Address'))
 
-WebUI.click(findTestObject('Object Repository/page_Make-Order/New Folder (1)/span_Select an address_mat-radio-outer-circle'))
+'Pilih Alamat'
+WebUI.click(findTestObject('page_Make-Order/radio-btn_Address'))
 
 WebUI.click(findTestObject('Object Repository/page_Make-Order/button_Continue-1'))
 
@@ -54,15 +55,17 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lb
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Choose-Delivery'))
 
-WebUI.click(findTestObject('Object Repository/page_Make-Order/New Folder (1)/span_Expected Delivery_mat-radio-outer-circle'))
+'Pilih Expected Delivery'
+WebUI.click(findTestObject('page_Make-Order/radio-btn_Fast-Delivery'))
 
 WebUI.click(findTestObject('Object Repository/page_Make-Order/button_Continue-2'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/New Folder/lbl_Payment-Options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Payment-Options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/New Folder/lbl_Payment-Options'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Payment-Options'))
 
-WebUI.click(findTestObject('Object Repository/page_Make-Order/New Folder (1)/span_My Payment Options_mat-radio-outer-circle'))
+'Pilih Metode Pembayaran '
+WebUI.click(findTestObject('page_Make-Order/radio-btn_Payment-Card'))
 
 WebUI.click(findTestObject('Object Repository/page_Make-Order/btn_Continue-3'))
 
@@ -72,7 +75,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl
 
 WebUI.click(findTestObject('Object Repository/page_Make-Order/btn_Checkout'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Thank-for-Purchase'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Thank-for-Purchase'), 20)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Thank-for-Purchase'))
 

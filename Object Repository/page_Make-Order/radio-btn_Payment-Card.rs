@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radio-btn_Address</name>
+   <name>radio-btn_Payment-Card</name>
    <tag></tag>
-   <elementGuidId>c43eae31-67d5-4ef4-81bb-3613366cb493</elementGuidId>
+   <elementGuidId>0fab11ea-4018-4c1a-b23d-64af5b226620</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-radio-button[@id='mat-radio-42']/label/span/span</value>
+         <key>CSS</key>
+         <value>span.mat-radio-inner-circle</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-radio-outer-circle</value>
+         <key>XPATH</key>
+         <value>//mat-radio-button[@id='mat-radio-49']/label/span/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>.mat-radio-outer-circle</value>
+         <value>.mat-radio-inner-circle</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,38 +29,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6895344f-cf27-43b4-9c30-aa4a724f1ae0</webElementGuid>
+      <webElementGuid>38daf9a6-1eb7-4b53-a9e8-c16f3fba24b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-radio-outer-circle</value>
-      <webElementGuid>d9b7ca99-4041-407c-8721-622b3b4d8d15</webElementGuid>
+      <value>mat-radio-inner-circle</value>
+      <webElementGuid>ea023ea2-122f-483e-850e-784d88f38018</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-radio-42&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]/span[@class=&quot;mat-radio-outer-circle&quot;]</value>
-      <webElementGuid>73de453f-d4f4-4d50-820d-35379194095c</webElementGuid>
+      <value>id(&quot;mat-radio-49&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]/span[@class=&quot;mat-radio-inner-circle&quot;]</value>
+      <webElementGuid>01b73757-5151-407c-8597-cd2d7d101159</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-42']/label/span/span</value>
-      <webElementGuid>a764ad90-bd40-4eb6-80ab-ec58b878aba1</webElementGuid>
+      <value>//mat-radio-button[@id='mat-radio-49']/label/span/span[2]</value>
+      <webElementGuid>7c36fea4-d3e0-467b-9ccb-d33e89931e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/span/span</value>
-      <webElementGuid>d8a16dd8-6b27-4a68-9a58-517bc82ed4b4</webElementGuid>
+      <value>//label/span/span[2]</value>
+      <webElementGuid>35d6682e-2732-495f-a5e6-225075b9acd0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

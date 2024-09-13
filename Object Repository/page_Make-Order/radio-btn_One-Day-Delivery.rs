@@ -3,22 +3,22 @@
    <description></description>
    <name>radio-btn_One-Day-Delivery</name>
    <tag></tag>
-   <elementGuidId>4c76b1e5-8bfa-4107-898a-8d77eb081f97</elementGuidId>
+   <elementGuidId>8c2dc48f-5a77-4807-aacd-b6f6496ee592</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-radio-button[@id='mat-radio-45']/label/span/span</value>
+         <key>CSS</key>
+         <value>mat-cell.mat-cell.cdk-cell.cdk-column-Name.mat-column-Name.ng-star-inserted</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-radio-outer-circle</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Delivery'])[1]/following::mat-cell[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>.mat-radio-outer-circle >> nth=0</value>
+         <value>internal:role=cell[name=&quot;One Day Delivery&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,39 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>48d30147-bf50-4087-95e2-10c39e08065c</webElementGuid>
+      <value>mat-cell</value>
+      <webElementGuid>e3a51118-05df-4f6c-932f-9268833cdafc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>cell</value>
+      <webElementGuid>aa3d26ce-95d0-4dd0-9b3e-b553367540a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fxflex</name>
+      <type>Main</type>
+      <value>30%</value>
+      <webElementGuid>26402308-f95d-43e1-b176-f38690b74acb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-radio-outer-circle</value>
-      <webElementGuid>1dc4fd34-1cf5-4b84-b815-057013f18510</webElementGuid>
+      <value>mat-cell cdk-cell cdk-column-Name mat-column-Name ng-star-inserted</value>
+      <webElementGuid>597d4027-2c72-45fb-8fe6-7a435ed645d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> One Day Delivery</value>
+      <webElementGuid>fdf4ddda-7501-4223-8afa-d9570a6cd33e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-radio-45&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]/span[@class=&quot;mat-radio-outer-circle&quot;]</value>
-      <webElementGuid>d63eefe6-e454-4e9e-9635-1df0bb857fcd</webElementGuid>
+      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;mat-app-background bluegrey-lightgreen-theme&quot;]/app-root[1]/div[@class=&quot;mat-typography&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content ng-star-inserted&quot;]/app-delivery-method[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator mat-elevation-z6&quot;]/div[3]/mat-table[@class=&quot;mat-table cdk-table&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-Name mat-column-Name ng-star-inserted&quot;]</value>
+      <webElementGuid>056727f1-1071-4f52-ab90-a0bd171cd229</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//mat-radio-button[@id='mat-radio-45']/label/span/span</value>
-      <webElementGuid>13d612b3-a59a-414f-8229-ede6476edfe8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Delivery'])[1]/following::mat-cell[2]</value>
+      <webElementGuid>2ccbca8a-f88b-4713-b81f-8f471455f99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::mat-cell[2]</value>
+      <webElementGuid>a55e5463-4cd9-4e1c-ab35-b808bec3b912</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/span/span</value>
-      <webElementGuid>a5435bbb-3342-4f7c-baa0-1679cca72131</webElementGuid>
+      <value>//mat-cell[2]</value>
+      <webElementGuid>1f7e3ddf-3840-4b69-9624-d6d521caf47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-cell[(text() = ' One Day Delivery' or . = ' One Day Delivery')]</value>
+      <webElementGuid>59ec6099-3820-4d75-a18e-3c3558243c55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

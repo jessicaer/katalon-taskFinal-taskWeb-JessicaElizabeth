@@ -109,6 +109,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Make-Order/New Folder/btn_Address-1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/page_Make-Order/radio-btn_Payment-Card",
+      "brokenLocator": "//mat-radio-button[@id\u003d\u0027mat-radio-49\u0027]/label/span/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/span/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/page_Make-Order/radio-btn_Payment-Card_position.png"
     }
   ]
 }
