@@ -34,35 +34,27 @@ WebUI.click(findTestObject('page_Home/button_Account'))
 
 WebUI.click(findTestObject('btn_Account/btn_Orders-Payment'))
 
-WebUI.click(findTestObject('btn_Account/btn_Addresses'))
+WebUI.click(findTestObject('btn_Account/btn_Payment-Options-Card'))
 
-WebUI.waitForElementVisible(findTestObject('page_Address/lbl_Saved-Addresses'), 0)
+WebUI.waitForElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('page_Address/lbl_Saved-Addresses'))
+WebUI.verifyElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'))
 
-WebUI.click(findTestObject('page_Address/btn_Add-New-Address'))
+WebUI.click(findTestObject('page_Add-Card/btn_Add-New-Card'))
 
-WebUI.waitForElementVisible(findTestObject('page_Address/page_Add-Address/lbl_Add-New-Address'), 0)
+WebUI.setText(findTestObject('page_Add-Card/input_Name'), 'Jessica')
 
-WebUI.verifyElementVisible(findTestObject('page_Address/page_Add-Address/lbl_Add-New-Address'))
+WebUI.setText(findTestObject('page_Add-Card/input_Card-Number'), '1234567891012131')
 
-WebUI.setText(findTestObject('page_Address/page_Add-Address/input_Country'), 'Indonesia')
+WebUI.selectOptionByLabel(findTestObject('page_Add-Card/select_Expiry-Month'), '10', false)
 
-WebUI.setText(findTestObject('Object Repository/page_Address/page_Add-Address/input_Name'), 'Kinan')
+WebUI.selectOptionByLabel(findTestObject('page_Add-Card/select_Expiry-Year'), '2090', false)
 
-WebUI.setText(findTestObject('Object Repository/page_Address/page_Add-Address/input_Mobile-Number'), '0912378342')
+WebUI.click(findTestObject('page_Add-Card/btn_Submit'))
 
-WebUI.setText(findTestObject('Object Repository/page_Address/page_Add-Address/input_Zip-Code'), '12342')
+WebUI.waitForElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'), 5)
 
-WebUI.setText(findTestObject('Object Repository/page_Address/page_Add-Address/textarea_Address'), 'Jl Imam Bonjol')
-
-WebUI.setText(findTestObject('Object Repository/page_Address/page_Add-Address/input_City'), 'Bandung')
-
-WebUI.click(findTestObject('page_Address/page_Add-Address/btn_Submit'))
-
-WebUI.waitForElementVisible(findTestObject('page_Address/lbl_Saved-Addresses'), 5)
-
-WebUI.verifyElementVisible(findTestObject('page_Address/lbl_Saved-Addresses'))
+WebUI.verifyElementVisible(findTestObject('page_Add-Card/lbl_My-Payment-Options'))
 
 WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
