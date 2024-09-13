@@ -56,7 +56,25 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/page_Make-Order/lb
 WebUI.verifyElementVisible(findTestObject('Object Repository/page_Make-Order/lbl_Choose-Delivery'))
 
 'Pilih Expected Delivery'
-WebUI.click(findTestObject('page_Make-Order/radio-btn_Fast-Delivery'))
+//WebUI.click(findTestObject('page_Make-Order/radio-btn_Fast-Delivery'))
+def select_radio = delivery
+
+switch(select_radio) {
+	case select_radio = 'One Day Delivery':
+		println(select_radio)
+		WebUI.click(findTestObject('page_Make-Order/radio-btn_One-Day-Delivery'))
+		break
+
+	case select_radio = 'Fast Delivery':
+		println(select_radio)
+		WebUI.click(findTestObject('page_Make-Order/radio-btn_Fast-Delivery'))
+		break
+
+	case select_radio = 'Standard Delivery':
+		println(select_radio)
+		WebUI.click(findTestObject('page_Make-Order/radio-btn_Standard-Delivery'))
+		break
+}
 
 WebUI.click(findTestObject('Object Repository/page_Make-Order/button_Continue-2'))
 
