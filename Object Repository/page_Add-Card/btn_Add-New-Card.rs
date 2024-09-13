@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Add-New-Card</name>
+   <tag></tag>
+   <elementGuidId>c43eae31-67d5-4ef4-81bb-3613366cb493</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-0']/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-expansion-indicator.ng-tns-c41-61.ng-trigger.ng-trigger-indicatorRotate.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Add new card Add a credit or debit card&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ef59bf0e-8829-4b98-9a78-1454feed4325</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-expansion-indicator ng-tns-c41-61 ng-trigger ng-trigger-indicatorRotate ng-star-inserted</value>
+      <webElementGuid>cfe88f81-ab00-4d16-a60a-90bcd160355c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-0&quot;)/span[@class=&quot;mat-expansion-indicator ng-tns-c41-61 ng-trigger ng-trigger-indicatorRotate ng-star-inserted&quot;]</value>
+      <webElementGuid>e05f1f6a-38cb-4521-aa5d-1715ec8a6534</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-0']/span[2]</value>
+      <webElementGuid>1db3dcd2-6436-48a2-9413-6436ad1919c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header/span[2]</value>
+      <webElementGuid>73491f88-443a-482a-b7fc-da607a6981ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

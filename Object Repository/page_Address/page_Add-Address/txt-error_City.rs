@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_cookie-browser</name>
+   <name>txt-error_City</name>
    <tag></tag>
-   <elementGuidId>f30a993f-de69-4613-aad5-d225df4f827b</elementGuidId>
+   <elementGuidId>9b030288-af34-4843-a148-1b5d9f6e664f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.cc-btn.cc-dismiss</value>
+         <key>XPATH</key>
+         <value>//mat-error[@id='mat-error-40']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Me want it!')]</value>
+         <key>CSS</key>
+         <value>#mat-error-40</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;dismiss cookie message&quot;i</value>
+         <value>internal:text=&quot;Please provide a city.&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>c2dbdc9e-e04c-46d3-91db-8fb3ab970636</webElementGuid>
+      <value>mat-error</value>
+      <webElementGuid>7a87a20e-be4f-49bb-85f5-dd4befc99709</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>aria-atomic</name>
       <type>Main</type>
-      <value>dismiss cookie message</value>
-      <webElementGuid>a09dafe2-ed7b-4a0e-a6d7-9e89e76cf8cb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5ff4c2e2-7caf-4a20-9237-aa2dc2c31ef6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>3752ae8f-3055-4c2a-a967-921fd38fb90c</webElementGuid>
+      <value>true</value>
+      <webElementGuid>3ab23ff7-956b-4b6b-af36-d956867340d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cc-btn cc-dismiss</value>
-      <webElementGuid>2f4cd3c5-d4e1-44b3-993b-7778d58776ac</webElementGuid>
+      <value>mat-error ng-tns-c21-50 ng-star-inserted</value>
+      <webElementGuid>763e9a3d-9d9e-4db3-aa3d-364204b13f77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>cc412fb9-215a-41d5-bacf-712a999f9487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-error-40</value>
+      <webElementGuid>47b447eb-8bfe-45d6-a7bb-49f49f0298a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Me want it!</value>
-      <webElementGuid>45009473-252f-4a43-ad15-e208c6319753</webElementGuid>
+      <value> Please provide a city. </value>
+      <webElementGuid>fbded8ad-f269-4a81-928d-3697d041a28d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;fontawesome-i2svg-active fontawesome-i2svg-complete&quot;]/body[@class=&quot;mat-app-background bluegrey-lightgreen-theme&quot;]/div[@class=&quot;cc-window cc-floating cc-type-info cc-theme-classic cc-bottom cc-right cc-color-override--1225450786&quot;]/div[@class=&quot;cc-compliance&quot;]/a[@class=&quot;cc-btn cc-dismiss&quot;]</value>
-      <webElementGuid>4b6f58fd-e691-4e7e-8952-e3ada2b8c692</webElementGuid>
+      <value>id(&quot;mat-error-40&quot;)</value>
+      <webElementGuid>1ee21ab2-02f6-4199-a1c9-cb5944d46df1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Me want it!')]</value>
-      <webElementGuid>993ad4b0-30ad-476d-919a-07f9a496a622</webElementGuid>
+      <value>//mat-error[@id='mat-error-40']</value>
+      <webElementGuid>f26a7b71-d184-47a6-900e-13622f548aab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address-form']/mat-form-field[6]/div/div[2]/div/mat-error</value>
+      <webElementGuid>d9104edb-906f-4bda-b270-c3292d380515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='But me wait!'])[1]/following::a[1]</value>
-      <webElementGuid>91fb3fe9-1b8c-4aa6-bd9e-83438f460f50</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::mat-error[1]</value>
+      <webElementGuid>26c6c10f-7788-4d1b-80e2-50c68a5c3349</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OWASP Juice Shop'])[2]/preceding::a[1]</value>
-      <webElementGuid>ea82e913-7b98-4447-8d57-1b51fb695d13</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please provide an address.'])[1]/following::mat-error[1]</value>
+      <webElementGuid>ad1c251b-4779-45fc-a80d-1f0428c061b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account'])[1]/preceding::a[1]</value>
-      <webElementGuid>2c8a8863-f882-4590-b4c7-e6e593d9cb7a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>89720a87-b2dd-48bb-97ff-668465b00cbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Me want it!']/parent::*</value>
-      <webElementGuid>8c352eb3-c5ee-49fa-9be5-28849001284d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Please provide a city.']/parent::*</value>
+      <webElementGuid>fbdb4ee6-759e-49aa-be7d-c4b6544da2c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>d989debd-45b3-406f-981f-9b749f635566</webElementGuid>
+      <value>//mat-form-field[6]/div/div[2]/div/mat-error</value>
+      <webElementGuid>91ca88f4-9dda-48ce-ab88-61284c753753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = 'Me want it!' or . = 'Me want it!')]</value>
-      <webElementGuid>51b9b111-5caf-4896-be8a-ad79c96b92b1</webElementGuid>
+      <value>//mat-error[@id = 'mat-error-40' and (text() = ' Please provide a city. ' or . = ' Please provide a city. ')]</value>
+      <webElementGuid>27757eb1-5f74-4d26-9ac0-1de6aaf7357d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

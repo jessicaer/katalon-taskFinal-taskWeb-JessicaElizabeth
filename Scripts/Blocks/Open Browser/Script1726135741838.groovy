@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.click(findTestObject('Object Repository/page_Home/button_visibility'))
+WebUI.click(findTestObject('Object Repository/page_Home/btn_visibility-Dismiss'))
 
-WebUI.click(findTestObject('page_Home/a_cookie-browser'))
+WebUI.click(findTestObject('page_Home/a_Me-Want-It'))
 
