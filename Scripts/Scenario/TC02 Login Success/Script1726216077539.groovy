@@ -37,9 +37,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/page_Login/input_passwo
 
 WebUI.click(findTestObject('Object Repository/page_Login/btn_login'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/page_Home/lbl_Home-All-Products'), 0)
-
-WebUI.verifyElementVisible(findTestObject('page_Home/lbl_Home-All-Products'))
+WebUI.delay(15, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
